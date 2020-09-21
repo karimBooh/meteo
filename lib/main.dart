@@ -19,7 +19,6 @@ void main() async {
   } on PlatformException catch (e) {
     print("Erreur: $e");
   }
-  print(position);
   if (position != null) {
     final latitude = position.latitude;
     final longitude = position.longitude;
